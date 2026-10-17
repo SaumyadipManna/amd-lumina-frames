@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of an aluminium glass door</title>
+  <desc id="desc">A charcoal aluminium-framed glazed door shown in a bright, modern interior.</desc>
+  <rect width="800" height="500" fill="#e9eeed"/>
+  <path d="M0 0h800v352H0z" fill="#f5f5f1"/>
+  <path d="M0 352h800v148H0z" fill="#d9d6cd"/>
+  <path d="M0 360h800M0 411h800M0 463h800" stroke="#c9c7c0" stroke-width="3"/>
+  <path d="M68 52h664v350H68z" fill="#344653"/>
+  <path d="M84 68h310v319H84z" fill="#d7e8e7"/>
+  <path d="M406 68h310v319H406z" fill="#c8dcdb"/>
+  <path d="M88 73h300v308H88z" fill="#cde5e8"/>
+  <path d="M410 73h300v308H410z" fill="#d9e9e5"/>
+  <path d="M88 285c69-66 108-19 160-70s94 7 140-38v204H88z" fill="#a7c4bd"/>
+  <path d="M410 264c55-40 99-17 147-67s91 6 153-28v212H410z" fill="#9cb8b0"/>
+  <path d="M395 57h17v354h-17z" fill="#243847"/>
+  <path d="M661 213h8v53h-8z" rx="4" fill="#c9a45e"/>
+  <circle cx="674" cy="239" r="4" fill="#f1d697"/>
+  <path d="M55 402h690v13H55z" fill="#b6b4ad"/>
+  <path d="M76 416h648v7H76z" fill="#f7f6f1"/>
+  <path d="M104 85v290M425 85v290" stroke="#fff" stroke-opacity=".45" stroke-width="4"/>
+</svg>

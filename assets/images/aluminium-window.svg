@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Aluminium windows</title>
+  <desc id="desc">A charcoal aluminium-framed two-panel window looking onto a green landscape.</desc>
+  <rect width="800" height="500" fill="#e8edef"/>
+  <path d="M0 0h800v500H0z" fill="#f2f3f0"/>
+  <path d="M82 48h636v372H82z" fill="#354954"/>
+  <path d="M101 67h284v334H101z" fill="#cce2e5"/>
+  <path d="M415 67h284v334H415z" fill="#d6e6e4"/>
+  <path d="M101 273c58-54 112-32 156-79s81-5 128-43v250H101z" fill="#a4c0b2"/>
+  <path d="M415 267c72-44 108-25 157-82s76-14 127-54v270H415z" fill="#91ae9b"/>
+  <path d="M100 68h285v334H100z" fill="none" stroke="#52636c" stroke-width="12"/>
+  <path d="M414 68h285v334H414z" fill="none" stroke="#52636c" stroke-width="12"/>
+  <path d="M392 57h16v355h-16z" fill="#283b47"/>
+  <path d="M384 213h8v48h-8zM408 213h8v48h-8z" fill="#d2b573"/>
+  <path d="M60 419h680v17H60z" fill="#c5ccce"/>
+  <path d="M80 436h640v9H80z" fill="#fff"/>
+  <path d="M127 91v298M442 91v298" stroke="#fff" stroke-opacity=".48" stroke-width="4"/>
+</svg>

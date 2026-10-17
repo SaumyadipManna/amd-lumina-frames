@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a uPVC glazed panel door</title>
+  <desc id="desc">A white uPVC door with frosted upper glazing, raised lower panels and a metal handle.</desc>
+  <rect width="800" height="500" fill="#edf0ed"/>
+  <path d="M0 0h800v350H0z" fill="#f7f6f2"/>
+  <path d="M0 350h800v150H0z" fill="#dedbd3"/>
+  <path d="M148 34h504v396H148z" fill="#d0d2cf"/>
+  <path d="M165 49h470v365H165z" fill="#fbfaf6"/>
+  <path d="M193 72h414v179H193z" fill="#bfd3d7"/>
+  <path d="M211 90h378v143H211z" fill="#e1eff0"/>
+  <path d="M211 90h378v143H211z" fill="none" stroke="#fff" stroke-width="12"/>
+  <path d="M193 268h414v119H193z" fill="#f1f0eb" stroke="#d7d8d4" stroke-width="5"/>
+  <path d="M209 282h382v91H209z" fill="#f8f7f2" stroke="#fff" stroke-width="7"/>
+  <path d="M572 251h8v55h-8z" fill="#c5a05a"/>
+  <circle cx="586" cy="279" r="4" fill="#a7874d"/>
+  <path d="M132 430h536v13H132z" fill="#c7c5be"/>
+  <path d="M187 103v117M224 103v117" stroke="#fff" stroke-opacity=".55" stroke-width="4"/>
+</svg>

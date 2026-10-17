@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">uPVC casement door</title>
+  <desc id="desc">A white uPVC hinged glass door opening onto a leafy garden.</desc>
+  <rect width="800" height="500" fill="#e9efeb"/>
+  <path d="M0 0h800v360H0z" fill="#f4f3ed"/>
+  <path d="M0 360h800v140H0z" fill="#d8d5cc"/>
+  <path d="M0 370h800M0 420h800M0 470h800" stroke="#c6c2b8" stroke-width="3"/>
+  <path d="M155 35h492v405H155z" fill="#c5c9c5"/>
+  <path d="M172 49h458v377H172z" fill="#fbfaf6"/>
+  <path d="M200 75h402v328H200z" fill="#d8e8e5"/>
+  <path d="M200 265c72-44 118-24 169-83s104-19 233-73v294H200z" fill="#abc5b3"/>
+  <path d="M200 323c81-45 134-30 206-64s123-5 196-40v184H200z" fill="#8faa96"/>
+  <path d="M214 90h365v292H214z" fill="none" stroke="#fff" stroke-width="13"/>
+  <path d="M190 56h422v363H190z" fill="none" stroke="#e7e8e3" stroke-width="9"/>
+  <path d="M557 208h8v48h-8z" fill="#b49457"/>
+  <circle cx="574" cy="232" r="4" fill="#967944"/>
+  <path d="M139 435h526v14H139z" fill="#bdbbb3"/>
+  <path d="M187 103v279M224 103v279" stroke="#fff" stroke-opacity=".55" stroke-width="4"/>
+</svg>

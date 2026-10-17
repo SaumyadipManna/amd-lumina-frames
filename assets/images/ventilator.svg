@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a compact aluminium ventilator</title>
+  <desc id="desc">A small square aluminium-framed bathroom ventilator with horizontal adjustable louvers.</desc>
+  <rect width="800" height="500" fill="#e8edef"/>
+  <path d="M0 0h800v500H0z" fill="#f1f3f2"/>
+  <path d="M0 0h800v500H0z" fill="none" stroke="#e1e6e6" stroke-width="2"/>
+  <path d="M190 40h420v420H190z" fill="#d7dcde"/>
+  <path d="M211 61h378v378H211z" fill="#576b78"/>
+  <path d="M231 81h338v338H231z" fill="#c9d9db"/>
+  <path d="M240 108h320M240 150h320M240 192h320M240 234h320M240 276h320M240 318h320M240 360h320" stroke="#657985" stroke-width="17" stroke-linecap="round"/>
+  <path d="M245 103h310M245 145h310M245 187h310M245 229h310M245 271h310M245 313h310M245 355h310" stroke="#f6f7f5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M211 61h378v378H211z" fill="none" stroke="#394c58" stroke-width="11"/>
+  <circle cx="230" cy="80" r="5" fill="#f6f7f5"/><circle cx="570" cy="80" r="5" fill="#f6f7f5"/>
+  <circle cx="230" cy="420" r="5" fill="#f6f7f5"/><circle cx="570" cy="420" r="5" fill="#f6f7f5"/>
+  <path d="M0 455h800v45H0z" fill="#e4e7e5"/>
+</svg>

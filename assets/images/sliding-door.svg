@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Aluminium sliding glass door</title>
+  <desc id="desc">Wide aluminium-framed sliding glass doors open onto a leafy garden and patio.</desc>
+  <rect width="800" height="500" fill="#e9eeeb"/>
+  <path d="M0 0h800v355H0z" fill="#f4f3ee"/>
+  <path d="M0 355h800v145H0z" fill="#d8d4ca"/>
+  <path d="M0 367h800M0 416h800M0 465h800" stroke="#c7c2b7" stroke-width="3"/>
+  <path d="M76 39h648v370H76z" fill="#344752"/>
+  <path d="M94 57h294v334H94z" fill="#c9e0e2"/>
+  <path d="M408 57h298v334H408z" fill="#d7e7e3"/>
+  <path d="M94 264c52-38 110-20 151-69s88-23 143-59v255H94z" fill="#abc5b3"/>
+  <path d="M408 252c69-41 107-17 159-67s92-9 139-47v253H408z" fill="#91ad98"/>
+  <path d="M98 61h298v334H98z" fill="none" stroke="#586a72" stroke-width="10"/>
+  <path d="M403 54h12v350h-12z" fill="#273b46"/>
+  <path d="M417 61h291v334H417z" fill="none" stroke="#586a72" stroke-width="10"/>
+  <path d="M390 203h8v48h-8zM408 203h8v48h-8z" fill="#c4a260"/>
+  <path d="M56 407h688v16H56z" fill="#b8b7b0"/>
+  <path d="M75 424h650v8H75z" fill="#fbfaf6"/>
+  <path d="M132 82v291M446 82v291" stroke="#fff" stroke-opacity=".48" stroke-width="4"/>
+</svg>

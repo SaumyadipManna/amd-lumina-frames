@@ -26,29 +26,30 @@ amd-lumina-frames/
 
 ## Update company details
 
-Open `js/script.js` and edit the `businessDetails` object near the top of the file:
+Open `js/script.js` and edit the `businessDetails` object near the top of the file. It contains the current contact details:
 
 ```js
 const businessDetails = {
-  businessPhone: "",
-  whatsappNumber: "",
-  email: "",
+  contactName: "Manoj Manna",
+  businessPhone: "7676397663",
+  whatsappNumber: "917676397663",
+  email: "manojamd.lumina@gmail.com",
   registeredAddress: "AMD Lumina Frames\nAMD House, Jangalpara, Pursurah\nNear BDO Office\nWest Bengal – 712401",
   manufacturingAddress: "AMD House, Pursurah\nNear BDO Office, Ground Floor\nWest Bengal – 712401"
 };
 ```
 
-Enter only confirmed contact details. The visible phone and email placeholders remain non-clickable until valid values are configured. The Google Maps directions links are built from the address values; they do not use fabricated coordinates.
+Update these values if the business contact details change. The 10-digit phone is displayed as provided and linked using India's `+91` calling code. The WhatsApp value includes country code `91` and is digits only. The Google Maps directions links are built from the address values; they do not use fabricated coordinates.
 
 ## Configure WhatsApp enquiries
 
-Set `whatsappNumber` to the business's verified number in international format, using digits only, including the country code and omitting `+`, spaces, and punctuation. For example, replace the empty string with an owner-supplied number. The site validates the value before creating `wa.me` links. Product buttons and the contact form then open a pre-filled WhatsApp message.
+Set `whatsappNumber` to the business's verified number in international format, using digits only, including the country code and omitting `+`, spaces, and punctuation. The configured number is `917676397663` (India country code +91 followed by the supplied mobile number). The site validates the value before creating `wa.me` links. Product buttons and the contact form open a pre-filled WhatsApp message addressed to Manoj Manna.
 
 The form runs in the visitor's browser. It does not send, store, or transmit an enquiry to a website backend.
 
 ## Replace sample images
 
-The architectural sample images are illustrative, not photographs of completed company projects. Add business-owned or properly licensed, web-optimized photographs under `assets/images/`, then update image `src` URLs in `index.html` and the hero background URL in `css/style.css`. Keep the image alternative text accurate; use descriptive alt text for meaningful photos and empty alt text only for decorative imagery. Broken images display a fallback.
+The product cards use product illustrations and supplied product photos, not photographs of completed company projects. The window and door illustrations automatically open once they scroll into view; visitors who prefer reduced motion see them in the open position without animation. The gallery includes the supplied sliding-window photo, clearly labeled product illustrations, and the supplied door photo under Toilet Fibre Doors. Replace the supplied logo at `assets/images/amd-lumina-frames-logo.jpg` if a higher-resolution original is available. Add business-owned or properly licensed, web-optimized photographs under `assets/images/`, then update image `src` URLs in `index.html` and the hero background URL in `css/style.css`. Keep the image alternative text accurate; use descriptive alt text for meaningful images and empty alt text only for decorative imagery. Broken images display a fallback.
 
 ## Add a backend or email service later
 

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a uPVC sliding window</title>
+  <desc id="desc">A white two-panel uPVC sliding window with clear glazed panes and a central meeting rail.</desc>
+  <rect width="800" height="500" fill="#e9eff0"/>
+  <path d="M0 0h800v500H0z" fill="#f2f4f1"/>
+  <path d="M76 47h648v376H76z" fill="#d0d8da"/>
+  <path d="M94 65h612v340H94z" fill="#fff"/>
+  <path d="M112 83h278v304H112z" fill="#c9e0e4"/>
+  <path d="M410 83h278v304H410z" fill="#d8e9e9"/>
+  <path d="M112 284c56-54 102-12 151-54s75-12 127-51v208H112z" fill="#a5c2ba"/>
+  <path d="M410 264c65-33 98-28 147-74s77 3 131-36v233H410z" fill="#b2c7bf"/>
+  <path d="M98 69h304v332H98z" fill="none" stroke="#fefefe" stroke-width="14"/>
+  <path d="M398 69h304v332H398z" fill="none" stroke="#fefefe" stroke-width="14"/>
+  <path d="M394 63h15v344h-15z" fill="#b9c2c5"/>
+  <path d="M389 210h7v49h-7zM405 210h7v49h-7z" fill="#a5adb0"/>
+  <path d="M71 418h658v17H71z" fill="#c5ccce"/>
+  <path d="M89 435h622v9H89z" fill="#fff"/>
+  <path d="M128 101v270M428 101v270" stroke="#fff" stroke-opacity=".5" stroke-width="4"/>
+</svg>

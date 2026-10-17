@@ -1,11 +1,11 @@
 (() => {
   "use strict";
 
-  // Replace the empty contact values with verified business details before publishing.
   const businessDetails = {
-    businessPhone: "",
-    whatsappNumber: "",
-    email: "",
+    contactName: "Manoj Manna",
+    businessPhone: "7676397663",
+    whatsappNumber: "917676397663",
+    email: "manojamd.lumina@gmail.com",
     registeredAddress: "AMD Lumina Frames\nAMD House, Jangalpara, Pursurah\nNear BDO Office\nWest Bengal – 712401",
     manufacturingAddress: "AMD House, Pursurah\nNear BDO Office, Ground Floor\nWest Bengal – 712401"
   };
@@ -21,11 +21,19 @@
     return true;
   };
 
+  document.querySelectorAll("[data-contact-name]").forEach((element) => {
+    element.textContent = businessDetails.contactName;
+  });
+
   document.querySelectorAll("[data-contact-phone]").forEach((link) => {
     const number = businessDetails.businessPhone.trim();
     if (/^[+()\d .-]{7,20}$/.test(number) && cleanPhone(number).length >= 7) {
       link.textContent = number;
-      link.href = `tel:${number.replace(/[^\d+]/g, "")}`;
+      const digits = cleanPhone(number);
+      const internationalNumber = number.startsWith("+")
+        ? `+${digits}`
+        : `+${digits.length === 10 ? "91" : ""}${digits}`;
+      link.href = `tel:${internationalNumber}`;
     } else {
       link.textContent = "[Add business phone]";
       link.removeAttribute("href");
@@ -63,7 +71,7 @@
 
   document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
     if (whatsappConfigured()) {
-      link.href = `https://wa.me/${cleanPhone(businessDetails.whatsappNumber)}?text=${encodeURIComponent("Hello AMD Lumina Frames, I would like to enquire about your products and services.")}`;
+      link.href = `https://wa.me/${cleanPhone(businessDetails.whatsappNumber)}?text=${encodeURIComponent(`Hello ${businessDetails.contactName}, I would like to enquire about AMD Lumina Frames products and services.`)}`;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
     } else {
@@ -85,7 +93,7 @@
       status.textContent = "";
       status.classList.remove("status-error");
       const product = button.dataset.product;
-      const message = `Hello AMD Lumina Frames, I would like to enquire about ${product}. Please share more information.`;
+      const message = `Hello ${businessDetails.contactName}, I would like to enquire about ${product} from AMD Lumina Frames. Please share more information.`;
       if (!openWhatsApp(message)) {
         document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
         status.textContent = "WhatsApp is not configured yet. Please add the business WhatsApp number in js/script.js.";
@@ -113,7 +121,7 @@
 
     const formData = new FormData(form);
     const message = [
-      "Hello AMD Lumina Frames, I would like to make an enquiry.",
+      `Hello ${businessDetails.contactName}, I would like to make an enquiry to AMD Lumina Frames.`,
       "",
       `Name: ${formData.get("fullName").trim()}`,
       `Phone: ${formData.get("phone").trim()}`,
@@ -130,6 +138,22 @@
   });
 
   document.querySelector("#copyrightYear").textContent = new Date().getFullYear();
+
+  const autoOpenDemos = document.querySelectorAll("[data-auto-open]");
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reducedMotion || !("IntersectionObserver" in window)) {
+    autoOpenDemos.forEach((demo) => demo.classList.add("is-open"));
+  } else {
+    const demoObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-open");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.35 });
+    autoOpenDemos.forEach((demo) => demoObserver.observe(demo));
+  }
 
   document.querySelectorAll(".image-frame img").forEach((image) => {
     const showFallback = () => {
